@@ -1,5 +1,5 @@
 
-# RISC-V Reference SoC Tapeout Program VSD
+# RISC-V SoC Tapeout Program VSD
 
 ## Tools Installation
 
@@ -13,6 +13,8 @@
 
 
 ### **TOOL CHECK**
+
+## I am using Ububtu 22.04 
 
 #### <ins>**Yosys**</ins>
 ```bash
@@ -32,7 +34,7 @@ $ sudo make install
 #To check run:
 yosys
 ```
-![Alt Text](images/yosys.jpeg)
+![Alt Text](images/yosys.png)
 
 #### <ins>**Iverilog**</ins>
 ```bash
@@ -52,4 +54,4 @@ $ sudo apt install gtkwave
 #To check run:
 gtkwave -v
 ```
-![Alt Text](images/gtkwave.jpeg)
+![Alt Text](images/gtkwave.png)

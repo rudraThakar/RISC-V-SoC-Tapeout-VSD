@@ -36,7 +36,7 @@ This means that even if the drain voltage increases, the carrier velocity (and h
 **File:** `day2_nfet_idvgs_L015_W039.spice`
 
 - Drain voltage (`Vds`) = constant  
-- Gate voltage (`Vgs`) = swept from 0 V to 2 V  
+- Gate voltage (`Vgs`) = swept from 0 V to 1.8 V  
 - Measured: Drain current (`Id`)
 
 **Plot:**
@@ -71,7 +71,7 @@ Hence, the dependence changes from **quadratic** to **linear** with `Vgs`.
 **File:** `day2_nfet_idvds_L015_W039.spice`
 
 - Gate voltage (`Vgs`) varied from 0 V to 1.8 V in steps.  
-- Drain voltage (`Vds`) swept from 0 V to 2 V.  
+- Drain voltage (`Vds`) swept from 0 V to 1.8 V.  
 - Measured: Drain current (`Id`).
 
 **Plot:**
